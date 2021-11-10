@@ -5,7 +5,9 @@ void fence()
 {
    setfillstyle(SOLID_FILL, GREEN);
    int poly[10];
-   
+   bar(500, 430, 800, 440);
+   bar(500, 480, 800, 490);
+   bar(500, 530, 800, 540);
    for(int i = 0; i < 800; i += 30)
    {
    poly[0] = 480 + i;
@@ -20,7 +22,5 @@ void fence()
    poly[9] = 600;
    fillpoly(5, poly);
    }
-   bar(500, 430, 800, 440);
-   bar(500, 480, 800, 490);
-   bar(500, 530, 800, 540);
+   
 }
